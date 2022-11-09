@@ -1,0 +1,35 @@
+body{
+    padding: 100px 20px;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 550px;
+    height: 250px;
+    background-color: #f3551c;
+    box-shadow: 3px 4px 6px #525050;
+    border-radius: 10px;
+}
+
+.fit{
+    width: fit-content;
+    border-right: 5px solid white;
+    color: #533419;
+}
+
+@media (max-width:600px) {
+
+    body{
+        padding: 100px 10px;
+    }
+    .body{
+        width: 95%;
+        padding: 0 10px;
+    }
+    .body p{
+        font-size: 20px !important;
+    }
+
+}
